@@ -3,23 +3,23 @@ import { GraduationCap } from "lucide-react"
 
 export function SiteFooter() {
   return (
-    <footer className="border-t py-6 md:py-0">
-      <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-        <div className="flex items-center gap-2 mx-auto md:mx-0">
+    <footer className="border-t py-4 w-full">
+      <div className="container mx-auto px-4 flex flex-col items-center justify-center">
+        <div className="flex items-center gap-2 text-center mb-2">
           <GraduationCap className="h-5 w-5" />
-          <p className="text-sm leading-loose text-center">
+          <p className="text-xs sm:text-sm leading-relaxed">
             &copy; {new Date().getFullYear()} A&apos;ezzy Grammar Correction. All rights reserved.
           </p>
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-2">
           {/*
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link href="#" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">
             Terms
           </Link>
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link href="#" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">
             Privacy
           </Link>
-          <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
+          <Link href="#" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">
             Help
           </Link>
           */}
